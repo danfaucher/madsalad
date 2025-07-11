@@ -1,0 +1,132 @@
+[
+  {
+    "id": "001",
+    "name": "Romaine Lettuce",
+    "calories": 17,
+    "glycemicIndex": 15,
+    "vegan": true,
+    "tags": ["vegan", "vegetarian", "gluten_free", "low_gi", "keto_friendly"],
+    "images": [
+      "001_romaine_lettuce_1.jpg",
+      "001_romaine_lettuce_2.jpg",
+      "001_romaine_lettuce_3.jpg"
+    ]
+  },
+  {
+    "id": "002",
+    "name": "Cherry Tomatoes",
+    "calories": 18,
+    "glycemicIndex": 15,
+    "vegan": true,
+    "tags": ["vegan", "vegetarian", "gluten_free", "low_gi"],
+    "images": [
+      "002_cherry_tomatoes_1.jpg",
+      "002_cherry_tomatoes_2.jpg",
+      "002_cherry_tomatoes_3.jpg"
+    ]
+  },
+  {
+    "id": "003",
+    "name": "Cucumber",
+    "calories": 16,
+    "glycemicIndex": 15,
+    "vegan": true,
+    "tags": ["vegan", "vegetarian", "gluten_free", "low_gi", "keto_friendly"],
+    "images": [
+      "003_cucumber_1.jpg",
+      "003_cucumber_2.jpg",
+      "003_cucumber_3.jpg"
+    ]
+  },
+  {
+    "id": "004",
+    "name": "Red Onion",
+    "calories": 40,
+    "glycemicIndex": 10,
+    "vegan": true,
+    "tags": ["vegan", "vegetarian", "gluten_free", "low_gi"],
+    "images": [
+      "004_red_onion_1.jpg",
+      "004_red_onion_2.jpg",
+      "004_red_onion_3.jpg"
+    ]
+  },
+  {
+    "id": "005",
+    "name": "Avocado",
+    "calories": 160,
+    "glycemicIndex": 10,
+    "vegan": true,
+    "tags": ["vegan", "vegetarian", "gluten_free", "low_gi", "keto_friendly"],
+    "images": [
+      "005_avocado_1.jpg",
+      "005_avocado_2.jpg",
+      "005_avocado_3.jpg"
+    ]
+  },
+  {
+    "id": "006",
+    "name": "Grilled Chicken",
+    "calories": 165,
+    "glycemicIndex": 0,
+    "vegan": false,
+    "tags": ["gluten_free", "low_gi", "keto_friendly", "animal_product"],
+    "images": [
+      "006_grilled_chicken_1.jpg",
+      "006_grilled_chicken_2.jpg",
+      "006_grilled_chicken_3.jpg"
+    ]
+  },
+  {
+    "id": "007",
+    "name": "Feta Cheese",
+    "calories": 264,
+    "glycemicIndex": 0,
+    "vegan": false,
+    "tags": ["vegetarian", "gluten_free", "low_gi", "dairy"],
+    "images": [
+      "007_feta_cheese_1.jpg",
+      "007_feta_cheese_2.jpg",
+      "007_feta_cheese_3.jpg"
+    ]
+  },
+  {
+    "id": "008",
+    "name": "Croutons",
+    "calories": 407,
+    "glycemicIndex": 70,
+    "vegan": true,
+    "tags": ["vegan", "vegetarian", "gluten"],
+    "images": [
+      "008_croutons_1.jpg",
+      "008_croutons_2.jpg",
+      "008_croutons_3.jpg"
+    ]
+  },
+  {
+    "id": "009",
+    "name": "Olive Oil",
+    "calories": 884,
+    "glycemicIndex": 0,
+    "vegan": true,
+    "tags": ["vegan", "vegetarian", "gluten_free", "low_gi", "keto_friendly"],
+    "images": [
+      "009_olive_oil_1.jpg",
+      "009_olive_oil_2.jpg",
+      "009_olive_oil_3.jpg"
+    ]
+  },
+  {
+    "id": "010",
+    "name": "Balsamic Vinegar",
+    "calories": 88,
+    "glycemicIndex": 35,
+    "vegan": true,
+    "tags": ["vegan", "vegetarian", "gluten_free", "low_gi"],
+    "images": [
+      "010_balsamic_vinegar_1.jpg",
+      "010_balsamic_vinegar_2.jpg",
+      "010_balsamic_vinegar_3.jpg"
+    ]
+  }
+]
