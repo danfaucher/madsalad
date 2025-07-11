@@ -1,14 +1,19 @@
-import './App.css'
-import Ingredients from './components/Ingredients'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Base from "./pages/Base";
+import Interface from "./pages/Interface";
 
+import './App.css';
 function App() {
-
   return (
     <>
-      <h1 className="text-3xl font-bold underline">MadSalad</h1>
-      <Ingredients />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Base />} />
+        <Route path="/interface" element={<Interface />} />
+          </Routes>
+    </Router>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
