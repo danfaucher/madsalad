@@ -4,6 +4,7 @@
     "name": "Spinach",
     "calories": 10,
     "glycemicIndex": 5,
+    "glycemicLoad": 5,
     "vegan": false,
     "tags": [
       "gluten_free",

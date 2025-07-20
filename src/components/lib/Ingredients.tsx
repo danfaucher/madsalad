@@ -5,6 +5,7 @@ interface Ingredient {
   name: string;
   calories: number;
   glycemicIndex: number;
+  glycemicLoad: number;
   vegan: boolean;
   tags: string[];
   images: string[];
@@ -43,6 +44,9 @@ const Ingredients: React.FC = () => {
               </p>
               <p>
                 <strong>Glycemic Index:</strong> {ingredient.glycemicIndex}
+              </p>
+               <p>
+                <strong>Glycemic Load:</strong> {ingredient.glycemicLoad}
               </p>
               <p>
                 <strong>Vegan:</strong> {ingredient.vegan ? 'Yes' : 'No'}
