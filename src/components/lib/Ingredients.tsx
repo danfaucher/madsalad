@@ -61,7 +61,7 @@ const Ingredients: React.FC = () => {
                 {ingredient.images.map((imgUrl, idx) => (
                   <img
                     key={idx}
-                    src={imgUrl}
+                    src={`/src/assets/img/ingredients/${imgUrl}`}
                     alt={`${ingredient.name} image ${idx + 1}`}
                     className="w-24 h-24 object-cover rounded"
                   />
