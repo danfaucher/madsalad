@@ -17,7 +17,7 @@ const Ingredients: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/ingredients.json');
+        const response = await fetch('data/ingredients.json');
         const json: Ingredient[] = await response.json();
         setData(json);
       } catch (error) {
@@ -61,7 +61,7 @@ const Ingredients: React.FC = () => {
                 {ingredient.images.map((imgUrl, idx) => (
                   <img
                     key={idx}
-                    src={`/src/assets/img/ingredients/${imgUrl}`}
+                    src={`img/ingredients/${imgUrl}`}
                     alt={`${ingredient.name} image ${idx + 1}`}
                     className="w-24 h-24 object-cover rounded"
                   />
